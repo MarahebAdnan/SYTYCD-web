@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>popcorn</title>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: #70a9a1;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  /* margin-top: 50px; */
+  display: inline-block;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #cfe0c3;
+  color: #294c60;
+  transform: rotateY(180deg);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #adb6c4;
+  color: white;
+}
+.name{
+   color: #70a9a1;
+    font-family:'Times New Roman', Times, serif;
+    display: inline-block;
+    text-align: center;
+    margin-left: 500px;
+}
+.logo {
+    display: inline-block;
+    margin: 0px;
+    margin-top: 10px;
+}
+header {
+    background-color: #1f363d;
+ }
+/* .-.-..--..-.-.--.-.-.-.-..-.--.-.-.-.-.-..-.-.-.-. */ 
+.flip-card1 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+ margin: 0px;
+  margin-top: 100px;
+ display: inline-block;
+ margin-left: 120px;
+ 
+}
+
+.flip-card-inner1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card1:hover .flip-card-inner1 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front1, .flip-card-back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front1 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back1 {
+  background-color: #cfe0c3;
+  color: #294c60;
+  transform: rotateY(180deg);
+}
+/* .-.-..--..-.-.--.-.-.-.-..-.--.-.-.-.-.-..-.-.-.-. */ 
+.flip-card2 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  display: inline-block;
+  margin-left: 300px;
+
+}
+
+.flip-card-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card2:hover .flip-card-inner2 {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front2, .flip-card-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front2 {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back2 {
+  background-color: #cfe0c3;
+  color: #294c60;
+  transform: rotateY(180deg);
+}
+
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+<img src="popcorn.png" width="100px">
+        </div>
+        <div class="name">
+            <h1>popcorn</h1>
+        </div>
+    </header>
+
+<div class="topnav">
+<a class="active" href="#home">Home</a>
+<a href="details.html">sign in</a>
+
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="home.jpe" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Home</h1> 
+      <p>(also known as Almost Home in the working title) is a 2015 American computer-animated science-fiction comedy film[4][5] produced by DreamWorks Animation and distributed by 20th Century Fox. Loosely based on Adam Rex's 2007 children's book The True Meaning of Smekday</p> 
+    </div>
+  </div>
+</div>
+
+<!-- .-.-.-.-.-.-.-.-.-.-.-.-.-.-..- -->
+
+
+<div class="flip-card1">
+    <div class="flip-card-inner1">
+      <div class="flip-card-front1">
+        <img src="bird.jpg" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back1">
+        <h1>Bird Box</h1> 
+        <p> is a 2018 American post-apocalyptic horror thriller film directed by Susanne Bier from a screenplay written by Eric Heisserer, and based on the 2014 novel of the same name by Josh Malerman</p> 
+        
+      </div>
+    </div>
+  </div>
+
+<!-- .-.-.-.-.-.-.-.-.-.-.-.-.-.-..- -->
+
+<div class="flip-card2" margin-left:50px;>
+    <div class="flip-card-inner2">
+      <div class="flip-card-front2">
+        <img src="cloudy.jpe" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back2">
+        <h1>Cloudy with a Chance of Meatballs</h1> 
+        <p> is a 2009 American computer-animated science fiction comedy film produced by Sony Pictures Animation and loosely based on the 1978 children's book of the same name by Judi and Ron Barrett.</p> 
+        
+      </div>
+    </div>
+  </div>
+  
+<!-- .-.-.-.-.-.-.-.-.-.-.-.-.-.-..- -->
+</body>
+</html>
